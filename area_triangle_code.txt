@@ -1,0 +1,20 @@
+#include<stdio.h>
+typedef struct 
+{
+  int  width ,height ,area ;
+}Rectangle;
+
+int calculateArea(Rectangle r){
+    return (r.width)*(r.height);
+}
+int main(){
+    Rectangle r;
+    printf("Enter the width :");
+    scanf("%d",&r.width);
+    printf("Enter the height :");
+    scanf("%d",&r.height);
+    r.area=calculateArea(r);
+    printf("%d",r.area);
+
+
+}
