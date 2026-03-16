@@ -1,5 +1,6 @@
+#include<conio.h>
 #include<stdio.h>
-typedef struct 
+typedef struct
 {
   int  width ,height ,area ;
 }Rectangle;
